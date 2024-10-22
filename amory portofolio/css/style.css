@@ -1,0 +1,132 @@
+body {
+    font-family: "Kite One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ .header{
+    /* background-color: rgb(45, 44, 44);  */
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+} 
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0,0, .6); */
+}
+.fa-arrow-turn-down {
+    color: black;
+    position: relative;
+    left: calc(50%);
+    bottom: 80px;
+    animation:  y 1s alternate infinite ;
+}
+@keyframes y{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(15PX);
+    }
+}
+.fa-arrow-turn-down:hover {
+    cursor: pointer;
+    color: wheat;
+}
+
+.display-1{
+    
+    font-weight: 1000;
+    font-size: 100px;
+}
+.position-absolute{
+    font-weight: 700;
+}
+i:hover{
+    cursor: pointer;
+   
+}
+.carousel{
+    background-color: #d2d2d2;
+}
+
+/* From Uiverse.io by ammarsaa */ 
+/* From Uiverse.io by akshat-patel28 */ 
+/* From Uiverse.io by bociKond */ 
+.form {
+    --bg-light: #efefef;
+    --bg-dark: #707070;
+    --clr: #58bc82;
+    --clr-alpha: #9c9c9c60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .form .input-span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form input[type="email"],
+  .form input[type="password"] {
+    border-radius: 0.5rem;
+    padding: 1rem 0.75rem;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--clr-alpha);
+    outline: 2px solid var(--bg-dark);
+  }
+  
+  .form input[type="email"]:focus,
+  .form input[type="password"]:focus {
+    outline: 2px solid var(--clr);
+  }
+  
+  .label {
+    align-self: flex-start;
+    color: var(--clr);
+    font-weight: 600;
+  }
+  
+  .form .submit {
+    padding: 1rem 0.75rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .form .submit:hover {
+    background-color: var(--clr);
+    color: var(--bg-dark);
+  }
+  
+  .span {
+    text-decoration: none;
+    color: var(--bg-dark);
+  }
+  
+  .span a {
+    color: var(--clr);
+  }
+  
